@@ -4,13 +4,8 @@ public class ArrayIntro {
 
 	public static void main(String[] args) {
 		/* Arrays are used to store multiple same type of values(elements) inside one
-		 * variable, it stores the values based on indexes starting 0([0], [1], [2]....)
+		 * variable, it stores the values based on indexes starting from 0([0], [1], [2]....)
 		 */
-
-		int num = 10;
-		System.out.println(num);
-
-		System.out.println("     ---------------------------      ");
 
 		int[] array = new int[4];
 		array[0] = 12;
