@@ -22,8 +22,7 @@ public class SwitchCase01 {
 		} else {
 			System.out.println("Wrong Day");
 		}
-		/*
-		 * / switch is a value based we can use it to execute selective matches, just to the value of variable. it can be a
+		/*switch is a value based we can use it to execute selective matches, just to the value of variable. it can be a
 		 * substitute for if condition, if there is no break points all the other codes
 		 * will be executed after it finds the value. 
 		 * if we are looking for equality then it is preferred to use switch. because it is cleaner and easier. 

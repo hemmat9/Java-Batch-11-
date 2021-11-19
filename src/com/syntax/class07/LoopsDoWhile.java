@@ -6,7 +6,7 @@ public class LoopsDoWhile {
 		/*
 		 * what is difference between while loop and do while loop? while checks the
 		 * condition first then enters to the body of the code, do while prints the code
-		 * then checks the condition. while is popular than do loop.
+		 * then checks the condition. while loop is popular than do loop.
 		 * 
 		 */
 		int a = 1;
@@ -14,6 +14,7 @@ public class LoopsDoWhile {
 			System.out.println("Hello");
 			a++;
 		}
+
 		System.out.println("=====================================");
 
 		int b = 1;

@@ -4,10 +4,10 @@ public class WhileDemo {
 
 	public static void main(String[] args) {
 
-		int i = 2;
+		int i = 1;
 		while (i <= 10) {
 			System.out.println(i);
-			i += 2;
+			i++;
 		}
 		System.out.println("+++++++++++++++++++++++++++++++++++++");
 
@@ -15,10 +15,11 @@ public class WhileDemo {
 		while (a <= 10) {
 
 			if (a % 2 == 0) {
-				System.out.print(a+ " ");
+				System.out.print(a + " ");
 			}
 			a++;
 		}
+
 	}
 
 }

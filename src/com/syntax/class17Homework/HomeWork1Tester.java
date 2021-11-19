@@ -6,7 +6,7 @@ public class HomeWork1Tester {
 		// TODO Auto-generated method stub
 		new HomeWork1();
 		new HomeWork1("Farhad");
-		new HomeWork1("Farhad", 34);
+		//new HomeWork1("Farhad", 34);
 		new HomeWork1(120000);
 	}
 

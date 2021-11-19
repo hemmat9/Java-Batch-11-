@@ -3,7 +3,7 @@ package com.syntax.class14Homework;
 public class Class14Homework6 {
 
 	public static void main(String[] args) {
-		// How would you check if String is polindrome or not?
+		// How would you check if String is palindrome or not?
 
 		String original = "Madam";
 		String Rev_Orig = "";
@@ -19,6 +19,15 @@ public class Class14Homework6 {
 			System.out.println(original + " is Not Polinderome String");
 		}
 
+		//How would you check if String is palindrome or not?
+				String str="racecar";
+				StringBuilder strB=new StringBuilder(str);
+				strB.reverse();
+				if(str.equals(strB.toString())) {
+					System.out.println(str+" is palindrome");
+				}else {
+					System.out.println(str+" is not palindrome");
+				}
 	}
 
 }

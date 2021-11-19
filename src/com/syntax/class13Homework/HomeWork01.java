@@ -18,8 +18,7 @@ public class HomeWork01 {
 		// Dad’s first name? Daniel
 		// Boy or Girl? girl
 		// Suggested baby name: MAIEL
-		String DadName = "Daniel";
-		String MomName = "Mary";
+		
 		String ExChild = "Boy";
 		String ExChild2 = "Girl";
 		Scanner scanner = new Scanner(System.in);
@@ -30,11 +29,9 @@ public class HomeWork01 {
 		System.out.println("Are you expecting a boy or a girl?");
 		String ExpChild = scanner.nextLine();
 		if (ExpChild.equalsIgnoreCase(ExChild)) {
-			System.out.println("Suggested baby name: " + DadName.substring(0, 3).toUpperCase()
-					+ (MomName.substring(2).toUpperCase()));
+			System.out.println("Suggested baby name: " + Lname.substring(0, Lname.length()/2).toUpperCase()	+ (Lname.substring(2).toUpperCase()));
 		} else if (ExpChild.equalsIgnoreCase(ExChild2)) {
-			System.out.println("Suggested baby name: " + MomName.substring(0, 2).toUpperCase()
-					+ (DadName.substring(3, 6).toUpperCase()));
+			System.out.println("Suggested baby name: " + Fname.substring(0, Fname.length()/2).toUpperCase()	+ (Lname.substring(3, 6).toUpperCase()));
 		}
 	}
 

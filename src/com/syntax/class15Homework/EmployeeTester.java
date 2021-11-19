@@ -9,15 +9,15 @@ public class EmployeeTester {
 		
 		Asghar.name="Asghar";
 		Asghar.empID="S01";
-		Asghar.Salary=5000;
-		System.out.println(Asghar.name+" "+Asghar.empID+" "+Asghar.Salary+" "+Employee.CEO );
-		
-		
+		Asghar.Salary=110000;
+				
 		Employee Moazzam = new Employee();
+		
 		Moazzam.name="Moazzam";
 		Moazzam.empID="S02";
-		Moazzam.Salary=4500;
+		Moazzam.Salary=100000;
 		System.out.println(Moazzam.name+" "+Moazzam.empID+" "+ Moazzam.Salary+" "+ Employee.CEO);
+		System.out.println(Asghar.name+" "+Asghar.empID+" "+Asghar.Salary+" "+Employee.CEO );
 		
 	}
 

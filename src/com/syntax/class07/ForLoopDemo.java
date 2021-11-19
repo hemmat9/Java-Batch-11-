@@ -4,7 +4,7 @@ public class ForLoopDemo {
 
 	public static void main(String[] args) {
 		// for loop is used when we know the condition, it repeats a block of code based
-		// on the number of condition, but we used while loop when we don't know how
+		// on the number of condition, but we use while loop when we don't know how
 		// many times code needs to be repeated.
 
 		for (int a = 1; a <= 3; a++) {// variable;condition;inc/dec

@@ -3,9 +3,7 @@ package com.syntax.class06;
 public class SwitchDemo {
 
 	public static void main(String[] args) {
-		
-		/*
-		 * rules: of switch
+		/* rules: of switch
 		 * values in case MUST be same data type as a Variable in switch.
 		 * we can not have duplicate cases
 		 */
@@ -23,7 +21,6 @@ public class SwitchDemo {
 			description = "unknown";
 
 		}
-
 		System.out.println(gender + " means " + description);
 		
 		/*
